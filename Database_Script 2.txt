@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `thekiranacademy`.`staff`;
+CREATE TABLE  `thekiranacademy`.`staff` (
+  `staffid` int(11) NOT NULL,
+  `experience` int(11) NOT NULL,
+  `name` varchar(255) default NULL,
+  `profile` varchar(255) default NULL,
+  `salary` int(11) NOT NULL,
+  PRIMARY KEY  (`staffid`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
